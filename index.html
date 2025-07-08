@@ -6,33 +6,55 @@
   <title>Apoiadores do Projeto Pexy</title>
   <style>
     body {
-      background-color: #f9f9f9;
+      background: linear-gradient(135deg, #f0fdf4, #e8f5e9);
       font-family: "Segoe UI", sans-serif;
-      color: #222;
+      color: #1b3c1b;
       margin: 0;
       padding: 2rem;
     }
     h1 {
       color: #256029;
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      font-size: 2.5rem;
     }
     .tier {
-      border-left: 4px solid #4caf50;
-      padding-left: 1rem;
+      background-color: #ffffff;
+      border: 1px solid #c8e6c9;
+      border-left: 8px solid #43a047;
+      padding: 1.5rem;
       margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(76, 175, 80, 0.15);
     }
     .tier h2 {
-      color: #388e3c;
-      margin-bottom: 0.5rem;
+      color: #2e7d32;
+      margin-bottom: 0.75rem;
+      font-size: 1.4rem;
     }
     ul {
       list-style-type: none;
-      padding-left: 1rem;
+      padding-left: 0;
+    }
+    li {
+      padding: 0.3rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+      font-size: 1.05rem;
     }
     li::before {
-      content: "🌱 ";
-      color: #4caf50;
+      content: "🌱";
+      position: absolute;
+      left: 0;
+      color: #66bb6a;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
@@ -83,7 +105,7 @@
   </section>
 
   <section class="tier">
-    <h2>👁‍🗨 Escolhido da Banca (R$200)</h2>
+    <h2>🔁 Escolhido da Banca (R$200)</h2>
     <ul>
       <li>Daniel Oliveira</li>
     </ul>
